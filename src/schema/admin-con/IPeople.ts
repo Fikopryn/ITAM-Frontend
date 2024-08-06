@@ -1,0 +1,35 @@
+export interface IPeople {
+  userId?: string;
+  company?: string;
+  empNum?: number;
+  persNo?: number;
+  userName?: string;
+  email?: string;
+  idType?: string;
+  idNumber?: number;
+  sex?: string;
+  assignmentType?: string;
+  isActive?: number;
+  ccid?: number;
+  ccName?: string;
+  kbo?: string;
+  kboName?: string;
+  posId?: number;
+  posName?: string;
+  parentPosId?: number;
+  parentPosName?: string;
+  parentUserId?: string;
+  function?: string;
+  subFunction?: string;
+  sectionId?: number;
+  section?: string;
+  unitId?: number;
+  unitName?: string;
+  locCategory?: string;
+  locGroup?: string;
+  areaId?: number;
+  areaName?: string;
+  subAreaId?: number;
+  subAreaName?: string;
+  backToBack?: string;
+}
